@@ -1,0 +1,30 @@
+/* ap.css */
+#ap {
+    background-color: #F8F8F8;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    margin: 10px;
+    overflow: hidden; /* Clear float to contain both content and image */
+}
+
+#ap h2 {
+    color: #333333;
+}
+
+#ap p,
+#ap ul {
+    color: #555555;
+    float: left;
+    width: 60%; /* Adjust the width as needed */
+}
+
+.ap_1 {
+    float: right; /* Float the image to the right */
+    margin: 10px;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.ap_1 img {
+    max-width: 100%; /* Adjust the max-width to your preference */
+    height: auto;
+}

@@ -1,0 +1,19 @@
+/* Add your styles specific to Time Management here */
+#tm {
+    background-color: #FDFDFD;
+    padding: 20px;
+    border: 1px solid #CCCCCC;
+    margin: 10px;
+}
+
+.tm_1 {
+    float:right; /* Float the image to the right */
+    margin: 10px;
+    width: 30%; /* Adjust the width as needed */
+}
+
+.tm_1 img {
+    max-width: 10%; /* Adjust the max-width to your preference */
+    
+}
+
