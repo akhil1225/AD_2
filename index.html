@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind-Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mind-Maker®</h1>
+        <a href="fb.html" class="feedback-btn">Feedback</a>
+        <a href="users.html" class="users-btn">Users</a>
+    </header>
+    <nav>
+        <div class="tabs">
+            <button class="tab" onclick="openTab('ap')">Academic Pressure</button>
+            <button class="tab" onclick="openTab('tm')">Time Management</button>
+            <button class="tab" onclick="openTab('pp')">Peer Pressure</button>
+    
+            <button class="tab" onclick="openTab('fs')">Financial Stress</button>
+           
+            <button class="tab" onclick="openTab('ls')">Lack of Sleep</button>
+            <button class="tab" onclick="openTab('td')">Technology Distractions</button>
+            <!-- Add more buttons as needed -->
+        </div>
+    </nav>
+    <main>
+        <!-- Content will be loaded dynamically in a new page -->
+    </main>
+    <footer>
+        <p>&copy; 2023 Mind-Maker</p>
+    </footer>
+    <script>
+        function openTab(tabName) {
+            window.location.href = tabName + '.html';
+        }
+    </script>
+</body>
+
+</html>

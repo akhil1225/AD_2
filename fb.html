@@ -1,0 +1,39 @@
+<!-- fb.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Mind-Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="fb.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mind-Maker®</h1>
+    </header>
+    <main>
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <label for="feedbackText">Your Feedback:</label>
+            <textarea id="feedbackText" name="feedbackText" rows="8" placeholder="Type your feedback here"></textarea>
+            <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mind-Maker</p>
+    </footer>
+
+    <script>
+        function submitFeedback() {
+            var feedback = document.getElementById("feedbackText").value;
+            // Here, you can implement the logic to send the feedback to the programmer
+            alert("Feedback submitted:\n" + feedback);
+        }
+    </script>
+</body>
+
+</html>
